@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>cinema</artifactId>
+    <artifactId>tkd</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cinema</name>
+    <name>tkd</name>
     <description>Cinema project for seec2</description>
 
     <properties>

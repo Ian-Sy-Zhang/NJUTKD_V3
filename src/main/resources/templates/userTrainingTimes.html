@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>电影</title>
+    <!-- 引入css样式文件 -->
+    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/movieList.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/userMovie.css"/>
+
+
+    <!-- Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/>
+    <!-- font-asesome图标库 -->
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>
+
+    <!-- 引入js脚本文件 -->
+    <!-- jquery -->
+    <script src="/js/jquery.js"></script>
+    <!-- Bootstrap 核心 JavaScript 文件 -->
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/request.js"></script>
+    <script src="/js/userTrainingTimes.js"></script>
+</head>
+<body>
+    <div class="nav-top-container">
+        <div class="nav-logo title">南京大学跆拳道协会打卡系统</div>
+        <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="#">打卡界面</a></li>
+        </ul>
+        <div class="nav-user-container">
+            <img class="avatar-sm" src="/images/userIcon.png" />
+            <span class="gray-text" style="vertical-align: middle">点这里退出登录</span>
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="filler-container card">
+            <div class="input-group" style="width: 800px">
+                <input type="text" class="form-control" id="search-input" placeholder="请输入学号">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" id="search-btn" type="button">搜索</button>
+                </span>
+            </div>
+            <!--<ul class="filler-item" style="display: flex">-->
+                <!--<span>类型：</span>-->
+                <!--<li><a class="active">全部</a></li>-->
+                <!--<li><a>科幻</a></li>-->
+                <!--<li><a>喜剧</a></li>-->
+                <!--<li><a>科幻</a></li>-->
+                <!--<li><a>喜剧</a></li>-->
+                <!--<li><a>todo筛选</a></li>-->
+            <!--</ul>-->
+            <!--<ul class="filler-item" style="display: flex">-->
+                <!--<span>状态：</span>-->
+                <!--<li><a class="active">全部</a></li>-->
+                <!--<li><a>上映中</a></li>-->
+                <!--<li><a>未上映</a></li>-->
+                <!--<li><a>已下架</a></li>-->
+            <!--</ul>-->
+        </div>
+        <ul class="movie-on-list">
+        </ul>
+    </div>
+</body>
+</html>
